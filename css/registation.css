@@ -1,0 +1,81 @@
+*{margin: 0; padding: 0;}
+
+body{
+    background-image: url("../photo/photo.jpg");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+}
+
+h1{text-align: center; padding: 20px;}
+h2{margin-left: 80px; padding: 20px;}
+.register{
+    background: #2d85b0;
+    width: 400px;
+    margin: 0px 0px 0px 500px;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#register{margin-left: 80px;}
+
+label{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+#name{
+    width: 300px;
+    /* height:30px; */
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#submit{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+
+
+@media(min-width:1200px){
+
+            /*Extra large Device*/
+      body{margin-left: auto;}
+    .register{margin-left: 550px;}
+
+}
+
+@media(min-width:992px) and (max-width:1199px){
+
+            /*large Device*/
+      body{margin-left: auto;}
+    .register{margin-left: 250px;}
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+           /*Medium Device*/
+      body{margin-left: auto;}
+    .register{margin-left: 200px;}
+}
+
+@media(min-width:576px) and (max-width:767px){
+        /* Small Device*/
+      body{margin-left: auto;}
+    .register{margin-left: 150px;}
+
+}
+@media(max-width:575px){
+      /*Extra Small Device*/
+    body{margin-left: auto;}
+    .register{margin-left: 45px;}
+}
